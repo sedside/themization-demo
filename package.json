@@ -1,0 +1,45 @@
+{
+  "name": "te-s7-jira-reports",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "cross-env THEME=leroyMerlin webpack --env NODE_ENV=production",
+    "dev": "cross-env webpack serve --env NODE_ENV=development",
+    "lint": "eslint \"**/*.{js,jsx,ts,tsx}\""
+  },
+  "dependencies": {
+    "@eastbanctechru/true-react-ui-kit": "^0.0.3-alpha.21",
+    "clsx": "^1.1.1",
+    "i18next": "^19.4.4",
+    "i18next-browser-languagedetector": "^4.1.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-i18next": "^11.4.0",
+    "react-jss": "^10.5.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@types/prettier": "^2.0.0",
+    "@types/react": "^17.0.1",
+    "@types/react-dom": "^17.0.0",
+    "@types/webpack-env": "^1.15.2",
+    "@typescript-eslint/eslint-plugin": "^2.30.0",
+    "@typescript-eslint/parser": "^2.30.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "html-webpack-plugin": "^5.0.0",
+    "http-proxy-middleware": "^1.0.3",
+    "node-static": "^0.7.11",
+    "prettier": "^2.0.5",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.1.5",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-conditional-loader": "^1.0.12",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
